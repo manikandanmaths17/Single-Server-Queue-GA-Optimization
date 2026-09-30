@@ -79,8 +79,10 @@ The cost parameters used in the mathematical model and their corresponding MATLA
 | Cᵣ₃                   | `C7`            | Running/operational cost per unit time in the complete breakdown mode |
 | Cᵣₚ₁                  | `C8`            | Repair cost associated with partial breakdown                         |
 | Cᵣₚ₂                  | `C9`            | Repair cost associated with complete breakdown                        |
+| Cf                  | `C10`            | Processing cost for each feedback customer entering the queue.                       |
 
-Thus, the cost parameters Cₕ, C𝑤, Cₛ₁, Cₛ₂, Cᵣ₁, Cᵣ₂, Cᵣ₃, Cᵣₚ₁, and Cᵣₚ₂ used in the manuscript correspond to `C1`, `C2`, `C3`, `C4`, `C5`, `C6`, `C7`, `C8`, and `C9`, respectively, in the MATLAB program.
+
+Thus, the cost parameters Cₕ, C𝑤, Cₛ₁, Cₛ₂, Cᵣ₁, Cᵣ₂, Cᵣ₃, Cᵣₚ₁, and Cᵣₚ₂ used in the manuscript correspond to `C1`, `C2`, `C3`, `C4`, `C5`, `C6`, `C7`, `C8`, `C9`, and `C10`, respectively, in the MATLAB program.
 
 ## Optimization Constraints
 
